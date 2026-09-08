@@ -1,14 +1,27 @@
-# iris-classification-ml
-Iris Classification using Machine Learning
+# Iris Classification using Machine Learning 🌸
 
-This project applies data preprocessing and three classification algorithms:
+A machine learning project for classifying Iris flower species using different classification algorithms.
 
-Logistic Regression
-K-Nearest Neighbors (KNN)
-Support Vector Machine (SVM)
+## Models Used
 
-Results:
+* Logistic Regression
+* K-Nearest Neighbors (KNN)
+* Support Vector Machine (SVM)
 
-Logistic Regression: 93.75%
-KNN: 90.62%
-SVM: 93.75%
+## Workflow
+
+Data preprocessing → Feature scaling → Model training → Model evaluation
+
+## Results
+
+| Model               | Accuracy |
+| ------------------- | -------: |
+| Logistic Regression |   93.75% |
+| KNN                 |   90.62% |
+| SVM                 |   93.75% |
+
+**Best Accuracy:** 93.75% — Logistic Regression & SVM
+
+## Tools
+
+Python · Pandas · NumPy · Matplotlib · Seaborn · Scikit-learn · Jupyter Notebook
